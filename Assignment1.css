@@ -1,0 +1,123 @@
+body
+{
+    background-image: url("people.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#f-text{
+    width: fit-content;
+    font-family: 'Annie Use Your Telescope';
+    font-size: 5vw;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    margin: auto;
+    margin-top: 15%;
+    position: sticky;
+}
+
+#abt-me{
+    font-family: serif;
+    font-size: 2vw;
+    font-weight: bolder;
+    font-style: italic; 
+    background: transparent;
+    padding: 4% 3% 4% 3%;
+    border: 0.1em solid white;
+    color: white;
+    border-radius: 0.4em;
+    margin-left: 35%;
+    outline: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#abt-me:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#info{
+    background-color: #eee;
+    margin-top: 22%;
+    padding-top: 25px;
+}
+
+#txt{
+    font-family: 'Annie Use Your Telescope';
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic; 
+    background-color:#06f;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+#image{
+    object-fit: cover;
+    border-radius:50%;
+    box-shadow: 6px 6px 5px 3px #999999;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 40vmin;
+    height: 40vmin;
+}
+#tbl{
+    margin: auto;
+    margin-top: 5%;
+    background-color: #06f;
+    font-weight: bolder;
+    width: 30%;
+    box-shadow: 6px 6px 6px 4px #888888;
+}
+#tbl td{
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding: 4%;
+}
+
+#txt1{
+    font-family: akronim;
+    font-size: 6vmin;
+    font-style: italic;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#flex-cont{
+    display: flex;
+    margin-top: 10%;
+}
+
+.captures{
+    width: 20%;
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: 6px 6px 6px 4px #888888;
+}
+
+#last{
+    margin-top:10%;
+    height: 10vh;
+    padding-top: 3%;
+}
+
+#mail-box{
+    width: fit-content;
+    margin:auto;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: bold;
+}
+ #mail-box input{
+     border:2px solid #06f;
+     height: 3vmin;
+ }
